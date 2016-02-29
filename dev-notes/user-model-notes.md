@@ -10,11 +10,23 @@ Users
   email *** must be unique
   password
   isAdmin
-  address
-  phone number
-  payment info
-  shopping cart [{shopping cart id ref}]
+  contact info: contact info ref
+  payment info: payment info ref
+  shopping cart: [{shopping cart id ref}]
   past orders: [order ref]
+
+contact info
+  _id
+  user id ref
+  shipping address
+  shipping phone
+
+Payment Info
+_id
+  user id ref
+  credit card #
+  billing address
+  billing phone
 
 Shopping Cart
 id
