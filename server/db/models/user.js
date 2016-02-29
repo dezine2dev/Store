@@ -27,7 +27,7 @@ var schema = new mongoose.Schema({
     cart: [{ type: Schema.Types.ObjectId,
         ref: 'shoppingCart'}],
     pastOrders: [{  type: Schema.Types.ObjectId,
-        ref: 'Oder'
+        ref: 'PastOrders'
     }],
     password: {
         type: String
